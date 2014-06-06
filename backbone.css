@@ -1,0 +1,161 @@
+
+body{
+	font-size: 62.5%;
+
+
+}
+
+@font-face {
+    font-family:"Entypo";
+    src: url(Entypo.ttf) format("truetype");
+    src: url(Entypo.otf) format("opentype");
+}
+
+.menu{
+	display: inline-block;
+	height:6rem;
+	width: 6rem;
+	padding: 0;
+	text-align: center;
+	position:fixed;
+	top:1rem;
+	color:white;
+	font-size:2.4rem;
+	font-family:Entypo;
+	z-index:2;
+}
+.nav-about{
+	background-color: #0FBF70; 
+	right: 13rem;
+	border-radius: 0.5rem 0 0 0rem;
+
+}
+.nav-about:after{
+	opacity:0;
+	top:6rem;
+	right:13rem;
+	content:" ";
+	position: fixed;
+	border-left: 48px solid transparent;
+	border-right: 48px solid transparent;
+	border-bottom:16px solid white;
+}
+.nav-about.special:after{
+	opacity:1;
+}
+
+.nav-resume{
+	background-color: #FF4040;
+	right: 7rem;
+}
+.nav-resume:after{
+	opacity:0;
+	top:6rem;
+	right:7rem;
+	content:" ";
+	position: fixed;
+	border-left: 48px solid transparent;
+	border-right: 48px solid transparent;
+	border-bottom:16px solid white;
+}
+.nav-resume.special:after{
+	opacity:1;
+}
+.nav-contact{
+	background-color: #35A2E8;
+	right: 1rem;
+	border-radius: 0 0.5rem 0.5rem 0;
+}
+.nav-contact:after{
+	opacity: 0;
+	top:6rem;
+	right:1rem;
+	content:" ";
+	position: fixed;
+	border-left: 48px solid transparent;
+	border-right: 48px solid transparent;
+	border-bottom:16px solid white;
+}
+
+.nav-contact.special:after{
+	opacity:1;
+}
+
+.about{
+	margin-left:10%;
+	width:55%;
+	font-size: 2rem;
+	margin-top: 15%;
+	height: 100%;
+	font-family: Comfortaa;
+}
+.quote-mark{
+	font-family: Entypo;
+	color: #0FBF70;
+	
+}
+.name{
+	color:#0FBF70;
+}
+#profile{
+	opacity:0;
+	width:100px;
+	height: 100px;
+ 	background-image: url('profile.jpg');
+ 	background-size: cover;
+ 	border-radius: 50%;
+	border: solid 8px #0FBF70;
+	margin-left: 84px;
+	margin-bottom: -20px;
+}
+#profile:after{
+	border:solid transparent;
+	content:" ";
+	position:relative;
+	top:120px;
+	left:35px;
+	border-top-color:#0FBF70;
+	border-width: 15px;
+	border-left: -15px; 
+}
+.resume{
+	font-size: 1.6rem;
+	width:60%;
+	margin-left:10%;
+	height:100%;
+	font-family:"Alegreya Sans";
+	margin-bottom: 20%;
+	margin-top: 20%;
+
+}
+
+.resume-title{
+	font-size:1.4rem;
+	width: 100%;
+
+}
+
+.resume-date{
+	width:45%;
+	margin-left: 5%;
+	float:left;
+	margin-bottom:1rem;
+}
+.resume-detail{
+	width:50%;
+	float:left;
+	margin-bottom:1rem;
+}
+.resume-language{
+	width:45%;
+	margin-left: 5%;
+	float:left;
+}
+.contact{
+	width:60rem;
+	height: 50rem;
+	margin:0 auto;
+	margin-top:10rem;
+	font-size: 1.6rem;
+
+}
